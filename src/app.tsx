@@ -1,3 +1,4 @@
+import { AllLinks } from './components/fav-links/all-links';
 import { Search } from './components/search/search';
 
 export function App() {
@@ -11,6 +12,7 @@ export function App() {
           </p>
         </div>
         <Search />
+        <AllLinks />
       </div>
     </section>
   );
